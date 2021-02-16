@@ -156,7 +156,7 @@
   margin: 0 auto;
 }
 #contact-me {
-  padding: 7% 10%;
+  padding: 7% 10% 15%;
   text-align: center;
 }
 #contact-me-h2 {
@@ -220,6 +220,12 @@
   color: #fff;
 }
 @media (max-width: 1024px) {
+  #nav-brand{
+    font-size: 1.5rem;
+  }
+  #experience-h2, #education-h2, #skills-h2, #languages-h2, #contact-me-h2 {
+    font-size: 2rem;
+  }
   .skill-row{
     width: 90%;
   }
