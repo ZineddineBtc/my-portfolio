@@ -152,7 +152,7 @@
   margin: 0 auto 7%;
 }
 #languages-table {
-  width: 400px;
+  width: 50%;
   margin: 0 auto;
 }
 #contact-me {
@@ -224,7 +224,11 @@
     width: 90%;
   }
   #studies-specific-skills {
-    width: 90%;
+    width: 100%;
+  }
+  #languages-table {
+    width: 80%;
+    margin: 0 auto;
   }
   #contact-me-p {
     width: 80%;
