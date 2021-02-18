@@ -242,4 +242,21 @@
   #contact-me-p {
     width: 80%;
   }
+  .DE-programmer {
+    font-size: 1.5rem;
+  }
+  .DE-studies-specific-skills{
+    text-align: center;
+  }
+  .DE-studies-specific-skills-img {
+    float: none;
+  }
+  .DE-studies-specific-skills-table {
+    width: 90%;
+  }
+  .DE-contact-me-btn {
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+  }
+
 }
