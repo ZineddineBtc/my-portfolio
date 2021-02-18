@@ -136,6 +136,11 @@
   float: left;
   margin-right: 30px;
 }
+#DE-studies-specific-skills-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
 #studies-specific-skills {
   background-color: #212529;
   color: #fff;
@@ -291,6 +296,7 @@
   }
   #DE-studies-specific-skills-img {
     float: none;
+    margin-right: 0px;
   }
   #DE-studies-specific-skills-table {
     width: 100%;
