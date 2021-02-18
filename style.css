@@ -32,6 +32,11 @@
   font-size: 2.5rem;
   margin: 3%;
 }
+#DE-programmer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin: 3%;
+}
 #pro {
   text-decoration: underline;
 }
@@ -138,7 +143,17 @@
   width: 55%;
   border-radius: 1%;
 }
+#DE-studies-specific-skills {
+  background-color: #212529;
+  color: #fff;
+  padding: 2%;
+  width: 55%;
+  border-radius: 1%;
+}
 #studies-specific-skills-table {
+  width: 50%;
+}
+#DE-studies-specific-skills-table {
   width: 50%;
 }
 #languages {
@@ -202,6 +217,31 @@
   background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
   text-decoration: none;
 }
+#DE-contact-me-btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+#DE-contact-me-btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
 #footer {
   background-color: #6AD0D0;
   text-align: center;
@@ -242,19 +282,20 @@
   #contact-me-p {
     width: 80%;
   }
-  .DE-programmer {
+  #DE-programmer {
     font-size: 1.5rem;
   }
-  .DE-studies-specific-skills{
+  #DE-studies-specific-skills{
     text-align: center;
+    width: 100%;
   }
-  .DE-studies-specific-skills-img {
+  #DE-studies-specific-skills-img {
     float: none;
   }
-  .DE-studies-specific-skills-table {
-    width: 90%;
+  #DE-studies-specific-skills-table {
+    width: 100%;
   }
-  .DE-contact-me-btn {
+  #DE-contact-me-btn {
     font-size: 14px;
     padding: 5px 10px 5px 10px;
   }
